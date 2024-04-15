@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --heading: "Big Shoulders Display", sans-serif;
+  --body: "Lexend Deca", sans-serif;
+}
+body {
+  text-align: left;
+  margin: 30px 20px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.one {
+  background-color: var(--Bright-orange);
+  height: 85vh;
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.one img {
+  margin-right: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h1 {
+  font-family: var(--heading);
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 50px;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  font-size: 15px;
+  line-height: 2;
+  font-family: var(--body);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.one button {
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: var(--Bright-orange);
+  font-weight: 600;
+}
+.two {
+  background-color: var(--dark-cyan);
+  padding: 50px;
+  height: 85vh;
+}
+.two img {
+  margin-right: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.two button {
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: var(--dark-cyan);
+  font-weight: 600;
+}
+.three {
+  background-color: var(--very-dark-cyan);
+  height: 85vh;
+  padding: 50px;
+}
+.three img {
+  margin-right: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.three button {
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: var(--very-dark-cyan);
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  #zero {
+    display: flex;
+    margin: 150px 150px;
+    border: none;
+    padding: auto;
+    
+  }
+  .one{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:-100px 0px 0px 0px ;
+  }
+  .three {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
